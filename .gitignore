@@ -1,0 +1,15 @@
+﻿# Secrets: never publish
+*.key
+*.keystore
+*.jks
+
+# Build output (APKs bundle the keys)
+launcher/out/
+*.apk
+*.idsig
+
+# Local state and tooling
+hidden.log
+launcher/screenshots/
+.impeccable/
+.claude/

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8e8e93"/></marker>
+  </defs>
+  <rect width="1200" height="560" rx="24" fill="#0f1115"/>
+  <text x="40" y="56" fill="#fff" font-size="28" font-weight="700">How Glass OS works</text>
+  <text x="40" y="86" fill="#8e8e93" font-size="17">One small Android app, set up over Wi-Fi from a Windows laptop. Nothing is uninstalled; everything can be undone.</text>
+
+  <!-- Laptop -->
+  <rect x="40" y="130" width="300" height="370" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+  <text x="64" y="168" fill="#fff" font-size="20" font-weight="700">Windows laptop</text>
+  <g font-size="16" fill="#d1d1d6">
+    <rect x="64" y="190" width="252" height="54" rx="12" fill="#262a33"/><text x="80" y="222">debloat.ps1 / restore.ps1</text>
+    <rect x="64" y="256" width="252" height="54" rx="12" fill="#262a33"/><text x="80" y="288">launcher\build.ps1 -Install</text>
+    <rect x="64" y="322" width="252" height="54" rx="12" fill="#262a33"/><text x="80" y="354">launcher\set-home.ps1</text>
+    <rect x="64" y="388" width="252" height="88" rx="12" fill="#262a33"/><text x="80" y="420">ADB (Android platform-</text><text x="80" y="444">tools), installed with</text><text x="80" y="468" fill="#8e8e93" font-size="14">winget Google.PlatformTools</text>
+  </g>
+
+  <line x1="340" y1="315" x2="438" y2="315" stroke="#8e8e93" stroke-width="3" marker-end="url(#a)"/>
+  <text x="352" y="300" fill="#8e8e93" font-size="15">ADB over</text><text x="352" y="340" fill="#8e8e93" font-size="15">Wi-Fi :5555</text>
+
+  <!-- TV -->
+  <rect x="440" y="130" width="440" height="370" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+  <text x="464" y="168" fill="#fff" font-size="20" font-weight="700">Fire TV (Fire OS 7)</text>
+  <rect x="464" y="190" width="392" height="96" rx="14" fill="#0a84ff"/>
+  <text x="484" y="224" fill="#fff" font-size="19" font-weight="700">Glass OS app (app.glasshome)</text>
+  <text x="484" y="252" fill="#e5f0ff" font-size="15">Tabs · Top Shelf · carousel · dock · grid</text>
+  <text x="484" y="274" fill="#e5f0ff" font-size="15">~50 KB, plain Android views, no WebView</text>
+  <g font-size="15" fill="#d1d1d6">
+    <rect x="464" y="300" width="190" height="82" rx="12" fill="#262a33"/><text x="478" y="328" fill="#fff" font-weight="700">HomeWatcher</text><text x="478" y="350">Amazon home shows →</text><text x="478" y="370">open Glass OS</text>
+    <rect x="666" y="300" width="190" height="82" rx="12" fill="#262a33"/><text x="680" y="328" fill="#fff" font-weight="700">Keeper</text><text x="680" y="350">Fire OS wipes it →</text><text x="680" y="370">switch it back on</text>
+    <rect x="464" y="396" width="392" height="82" rx="12" fill="#262a33"/><text x="478" y="424" fill="#fff" font-weight="700">Amazon launcher (stays installed)</text><text x="478" y="446">Protected by Fire OS, so it's covered, not removed.</text><text x="478" y="466">19 bloat apps hidden with pm disable-user.</text>
+  </g>
+
+  <line x1="880" y1="250" x2="958" y2="250" stroke="#8e8e93" stroke-width="3" marker-end="url(#a)"/>
+  <text x="890" y="236" fill="#8e8e93" font-size="15">HTTPS</text>
+
+  <!-- Cloud -->
+  <rect x="960" y="130" width="200" height="370" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+  <text x="980" y="168" fill="#fff" font-size="20" font-weight="700">Data</text>
+  <g font-size="15" fill="#d1d1d6">
+    <rect x="980" y="190" width="160" height="70" rx="12" fill="#262a33"/><text x="994" y="218" fill="#fff" font-weight="700">Cinemeta</text><text x="994" y="240">Stremio Discover</text>
+    <rect x="980" y="272" width="160" height="70" rx="12" fill="#262a33"/><text x="994" y="300" fill="#fff" font-weight="700">Stremio API</text><text x="994" y="322">library, Continue</text>
+    <rect x="980" y="354" width="160" height="70" rx="12" fill="#262a33"/><text x="994" y="382" fill="#fff" font-weight="700">TMDB</text><text x="994" y="404">extra backdrops</text>
+    <rect x="980" y="436" width="160" height="50" rx="12" fill="#262a33"/><text x="994" y="466" fill="#fff" font-weight="700">metahub images</text>
+  </g>
+  <text x="40" y="535" fill="#8e8e93" font-size="15">On Android TV / Google TV, HomeWatcher and Keeper aren't needed: Glass OS can be the real home app there.</text>
+</svg>

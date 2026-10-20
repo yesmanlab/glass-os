@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8e8e93"/></marker></defs>
+  <rect width="1200" height="330" rx="24" fill="#0f1115"/>
+  <text x="40" y="54" fill="#fff" font-size="26" font-weight="700">Fire TV: from stock to Glass OS in 5 steps</text>
+  <g font-size="15" fill="#d1d1d6">
+    <rect x="40" y="90" width="204" height="200" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+    <circle cx="74" cy="124" r="20" fill="#0a84ff"/><text x="74" y="130" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">1</text>
+    <text x="104" y="130" fill="#fff" font-size="18" font-weight="700">On the TV</text>
+    <text x="58" y="170">Settings → My Fire TV</text><text x="58" y="192">→ About → press the</text><text x="58" y="214">device name 7 times.</text><text x="58" y="244">Developer options →</text><text x="58" y="266">ADB debugging: ON</text>
+
+    <line x1="244" y1="190" x2="270" y2="190" stroke="#8e8e93" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="272" y="90" width="204" height="200" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+    <circle cx="306" cy="124" r="20" fill="#0a84ff"/><text x="306" y="130" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">2</text>
+    <text x="336" y="130" fill="#fff" font-size="18" font-weight="700">Connect</text>
+    <text x="290" y="170">Install ADB, then</text><text x="290" y="192" font-family="Consolas, monospace" fill="#64d2ff">adb connect IP:5555</text><text x="290" y="222">On the TV, tick "Always</text><text x="290" y="244">allow" and press OK.</text>
+
+    <line x1="476" y1="190" x2="502" y2="190" stroke="#8e8e93" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="504" y="90" width="204" height="200" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+    <circle cx="538" cy="124" r="20" fill="#0a84ff"/><text x="538" y="130" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">3</text>
+    <text x="568" y="130" fill="#fff" font-size="18" font-weight="700">Debloat</text>
+    <text x="522" y="170" font-family="Consolas, monospace" fill="#64d2ff">debloat.ps1 -WhatIf</text><text x="522" y="196">Preview, then run it</text><text x="522" y="218">without -WhatIf.</text><text x="522" y="248">Hides ads, shopping,</text><text x="522" y="270">telemetry. Reversible.</text>
+
+    <line x1="708" y1="190" x2="734" y2="190" stroke="#8e8e93" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="736" y="90" width="204" height="200" rx="18" fill="#1c1f26" stroke="#2c313b"/>
+    <circle cx="770" cy="124" r="20" fill="#0a84ff"/><text x="770" y="130" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">4</text>
+    <text x="800" y="130" fill="#fff" font-size="18" font-weight="700">Install</text>
+    <text x="754" y="170">Prebuilt APK:</text><text x="754" y="192" font-family="Consolas, monospace" fill="#64d2ff">adb install</text><text x="754" y="214" font-family="Consolas, monospace" fill="#64d2ff">GlassHome.apk</text><text x="754" y="244">or build it yourself</text><text x="754" y="266">with your own keys.</text>
+
+    <line x1="940" y1="190" x2="966" y2="190" stroke="#8e8e93" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="968" y="90" width="192" height="200" rx="18" fill="#0a84ff"/>
+    <circle cx="1002" cy="124" r="20" fill="#fff"/><text x="1002" y="130" fill="#0a84ff" font-size="18" font-weight="700" text-anchor="middle">5</text>
+    <text x="1032" y="130" fill="#fff" font-size="18" font-weight="700">Set home</text>
+    <text x="986" y="170" font-family="Consolas, monospace" fill="#fff">set-home.ps1</text><text x="986" y="200" fill="#e5f0ff">Home button and</text><text x="986" y="222" fill="#e5f0ff">boot now open</text><text x="986" y="244" fill="#e5f0ff">Glass OS. Undo:</text><text x="986" y="266" font-family="Consolas, monospace" fill="#fff">set-home.ps1 -Undo</text>
+  </g>
+</svg>

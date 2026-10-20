@@ -1,0 +1,44 @@
+# Packages debloat.ps1 hides (pm disable-user). One per line; '#' comments a line out.
+# Uncomment Tier 2 / Tier 3 lines to include them. restore.ps1 re-enables everything here.
+
+# --- Tier 1: ads, shopping, promos, Amazon apps you don't use ---
+com.amazon.shoptv.client              # Amazon Shopping
+com.amazon.shoptv.firetv.client       # Amazon Shopping (home-screen tile)
+com.amazon.bueller.music              # Amazon Music
+com.amazon.bueller.photos             # Amazon Photos (screensaver can't show your own albums)
+com.amazon.tahoe                      # Amazon Kids (FreeTime)
+com.amazon.gamehub                    # Games hub
+com.amazon.minitv.android.app         # Amazon miniTV stub
+# com.amazon.ftvads.deeplinking         # opens ads when you click a banner  [protected by Fire OS 7, can't be hidden]
+com.amazon.hybridadidservice          # advertising ID for ad targeting
+com.amazon.kso.blackbird              # "Special Offers" ad service
+com.amazon.tv.acr                     # content recognition: logs what's on screen (incl. HDMI/Live TV) for ads
+com.amazon.tv.ftvambient              # Ambient Experience
+com.amazon.tv.democontent.provider    # store demo content
+com.amazon.tmm.tutorial               # tutorial
+com.amazon.storm.lightning.tutorial   # tutorial
+
+# --- Tier 2: telemetry / logging (privacy, low risk) ---
+# com.amazon.device.metrics  [protected by Fire OS 7, can't be hidden]
+com.amazon.tv.fw.metrics
+com.amazon.wirelessmetrics.service
+# com.amazon.device.crashmanager  [protected by Fire OS 7, can't be hidden]
+# com.amazon.device.logmanager  [protected by Fire OS 7, can't be hidden]
+com.amazon.dp.logger
+com.amazon.perfcollection
+com.amazon.neo.minerva.logcat
+
+# --- Tier 3: Alexa/smart-home extras (only if you have no Echo, no Alexa calls, no Matter devices) ---
+# com.amazon.whad                       # multi-room music with Echo
+# com.amazon.whasettings
+# com.amazon.wha.mediabrowserservice
+# com.amazon.audiohome                  # Alexa Home Theater (Echo as TV speakers)
+# com.amazon.tv.matter                  # Matter smart home
+# com.amazon.tv.mattercohost
+# com.amazon.rtcsessioncontroller       # Alexa calls / video calls
+# com.amazon.tv.alexaalerts             # Alexa reminders on TV
+# com.amazon.tv.alexanotifications
+
+# --- Your call ---
+# com.esaba.downloader                  # Downloader (sideloading tool, not on your list)
+# com.apple.airplay.amazon.airplay      # AirPlay from iPhone/Mac
