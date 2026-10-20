@@ -18,7 +18,6 @@ The whole app is about **50 KB**, against **27 MB** for Amazon's launcher. It ru
 | | Guide | What you get |
 |---|---|---|
 | 🔥 | **[Fire TV guide](docs/FIRE-TV.md)** | Debloat a Fire TV (ads, shopping, telemetry), then install Glass OS and make it the home screen. Tested on a Fire TV 4-Series (Fire OS 7). |
-| 📺 | **[Panasonic My Home Screen 3.0 guide](docs/PANASONIC-MY-HOME-SCREEN.md)** | For Panasonic TVs running My Home Screen 3.0 (e.g. TC-49FX700C). That system isn't Android, so this guide runs Glass OS on a streaming stick and sets the TV up around it. |
 | 🧭 | **[Porting guide](docs/PORTING.md)** | Bring Glass OS to Android TV / Google TV, other Fire TVs and AOSP boxes, and why Tizen, webOS, Roku and tvOS can't host it. |
 
 ## What it looks like
@@ -80,4 +79,4 @@ The whole app is about **50 KB**, against **27 MB** for Amazon's launcher. It ru
 
 ## Disclaimer
 
-Glass OS is a personal, unofficial project. It isn't affiliated with or endorsed by Amazon, Apple, Panasonic, Stremio or TMDB. The look is inspired by Apple's tvOS. App banners and title artwork shown in screenshots belong to their owners. Everything it does to your TV can be undone, but you use it at your own risk.
+Glass OS is a personal, unofficial project. It isn't affiliated with or endorsed by Amazon, Apple, Stremio or TMDB. The look is inspired by Apple's tvOS. App banners and title artwork shown in screenshots belong to their owners. Everything it does to your TV can be undone, but you use it at your own risk.
